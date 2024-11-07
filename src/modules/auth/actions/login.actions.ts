@@ -1,6 +1,6 @@
 import { tesloApi } from '@/api/tesloApi';
 import type { AuthResponse } from '../interfaces/auth.response';
-import { isAxiosError } from 'node_modules/axios/index.cjs';
+import { isAxiosError } from 'axios';
 import type { User } from '../interfaces';
 
 interface LoginError {
